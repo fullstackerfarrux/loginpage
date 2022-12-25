@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  a {
+    width: 50px;
+    height: 50px;
+  }
+
+  h1 {
+    margin-left: 500px;
+  }
+}
+
+.grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+
+  .card {
+    grid: span 1;
+  }
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
